@@ -21,6 +21,18 @@ h1{
     color: ghostwhite;
 }
 
+p{
+    color: ghostwhite;
+    width: 50%;
+    text-align: center;
+}
+
+img{
+    border-radius: 55%;
+    height: 230px;
+    width: 250px;
+}
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -35,4 +47,10 @@ ul{
 li a{
     color: ghostwhite;
     text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: #C84B31;
+    cursor: pointer;
 }
