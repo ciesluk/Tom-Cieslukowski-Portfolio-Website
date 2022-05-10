@@ -37,9 +37,6 @@ ul{
     display: flex;
     justify-content: space-around;
     width: 75%;
-}
-
-ul{
     list-style: none;
     color: white;
 }
@@ -50,7 +47,31 @@ li a{
     font-size: 1.2em;
 }
 
+a{
+    position: relative;
+}
+
 a:hover{
     color: #C84B31;
     cursor: pointer;
+}
+
+/*Bottom Border hover effect*/
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #C84B31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
 }
