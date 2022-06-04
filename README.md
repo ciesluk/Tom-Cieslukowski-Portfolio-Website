@@ -1,4 +1,4 @@
-# Tom-Cieslukowski-Portfolio-Website
+# Tom Cieslukowski Portfolio Website
 
 ## About the Project
 
